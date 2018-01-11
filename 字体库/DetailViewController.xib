@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailViewController">
+            <connections>
+                <outlet property="TF" destination="STk-Gc-EMn" id="bIh-Rx-UgQ"/>
+                <outlet property="TV" destination="M5j-yE-7h7" id="1WG-Yi-szr"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="M5j-yE-7h7">
+                    <rect key="frame" x="30" y="60" width="315" height="577"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <string key="text">1234567890
+
+abcdefghijklmnopqrstuvwxyz
+
+ABCDEFGHIJKLMNOPQRSTUVWXYZ 
+
+静静的你
+等待
+陌生人
+爱是清风恰醇酒
+虚空
+欣于天启
+我心永恒
+时间是爱情的剪刀
+当我们初次相聚的时候
+岁月的皱纹在这里滋生
+外面的夜晚
+牵手</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="STk-Gc-EMn">
+                    <rect key="frame" x="30" y="9" width="315" height="36"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="36" id="WI6-R6-Ytc"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="M5j-yE-7h7" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="30" id="H1C-az-EjG"/>
+                <constraint firstItem="M5j-yE-7h7" firstAttribute="top" secondItem="STk-Gc-EMn" secondAttribute="bottom" constant="15" id="L9m-Nd-KVU"/>
+                <constraint firstItem="M5j-yE-7h7" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="60" id="OD5-rT-GuF"/>
+                <constraint firstItem="STk-Gc-EMn" firstAttribute="leading" secondItem="M5j-yE-7h7" secondAttribute="leading" id="OMU-bH-9fr"/>
+                <constraint firstItem="STk-Gc-EMn" firstAttribute="width" secondItem="M5j-yE-7h7" secondAttribute="width" id="WjZ-ej-lTQ"/>
+                <constraint firstAttribute="trailing" secondItem="M5j-yE-7h7" secondAttribute="trailing" constant="30" id="qhD-qD-6FA"/>
+                <constraint firstAttribute="bottom" secondItem="M5j-yE-7h7" secondAttribute="bottom" constant="30" id="vmA-ND-ico"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
